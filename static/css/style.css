@@ -4,7 +4,7 @@ body {
   }
 
 .jumbotron {
-    background-image: url("../images/nasa.jpg");
+    background-image: url("../images/banner.png"); /*"../images/nasa.jpg"*/
     background-size: 100% 100%;
     text-align: center;
   }
@@ -14,12 +14,16 @@ form input{
     float: right;
     margin: 0, 10px;
     border-radius: 12px;
-    border: 1px solid #FF00FF 
+    border: 1px solid #00ccffd7 
   }
 
 form label{
-    margin: 0, 10px; 
+    margin-left: 15px;
 }
 
+.tiny {
+  font-size: 11px; 
+  text-align: center;
+}
 
   
