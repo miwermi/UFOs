@@ -74,14 +74,14 @@ The refactored code with addtional search capability:
     
 ### Search Results:
 
- <img src="https://github.com/miwermi/ufos/blob/main/static/images/datefilter.png" align="left" width="400" height="236" alt ="screenshot: Date Filter">  <img src="https://github.com/miwermi/ufos/blob/main/static/images/statefilter.png" align="left" width="400" height="236" alt ="screenshot: State Filter">
-<br clear="all" />
+<img src="https://github.com/miwermi/ufos/blob/main/static/images/datefilter.png" align="left" width="420" height="248" alt ="screenshot: Date Filter"><img src="https://github.com/miwermi/ufos/blob/main/static/images/statefilter.png" align="right" width="420" height="248" alt ="screenshot: State Filter">
+
 Figures 1 & 2: Results of a Date Filter,  Results of a State Filter
 
 <br clear="all" />
     
-<img src="https://github.com/miwermi/ufos/blob/main/static/images/shapefilter.png" align="left" width="400" height="236" alt ="screenshot: Shape Filter"> <img src="https://github.com/miwermi/ufos/blob/main/static/images/city+shapefilter.png" align="left" width="400" height="236" alt ="screenshot: City & Shape">
-<br clear="all" />
+<img src="https://github.com/miwermi/ufos/blob/main/static/images/shapefilter.png" align="left" width="420" height="236" alt ="screenshot: Shape Filter"><img src="https://github.com/miwermi/ufos/blob/main/static/images/city+shapefilter.png" align="right" width="420" height="248" alt ="screenshot: City & Shape">
+
 Figures 3 & 4: Results of a Shape Filter, Results of a City & Shape Filter
  
 <br clear="all" /> 
