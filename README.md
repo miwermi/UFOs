@@ -15,13 +15,13 @@ Using Javascript, HTML and CSS, and a dataset provided by the client, I've creat
 
 
 ## Results
-<img src="https://github.com/miwermi/ufos/blob/main/static/images/datefilter.png" align="right" width="500" height="293" alt ="screenshot: Date Filter">
+<img src="https://github.com/miwermi/ufos/blob/main/static/images/datefilter.png" align="right" width="400" height="236" alt ="screenshot: Date Filter" style="margin-bottom: 10px;">
 
-<img src="https://github.com/miwermi/ufos/blob/main/static/images/statefilter.png" align="right" width="500" height="293" alt ="screenshot: State Filter">
+<img src="https://github.com/miwermi/ufos/blob/main/static/images/statefilter.png" align="right" width="400" height="236" alt ="screenshot: State Filter" style="margin-bottom: 10px;">
 
-<img src="https://github.com/miwermi/ufos/blob/main/static/images/shapefilter.png" align="right" width="500" height="293" alt ="screenshot: Shape Filter">
+<img src="https://github.com/miwermi/ufos/blob/main/static/images/shapefilter.png" align="right" width="400" height="236" alt ="screenshot: Shape Filter" style="margin-bottom: 10px;">
 
-<img src="https://github.com/miwermi/ufos/blob/main/static/images/city+shapefilter.png" align="right" width="500" height="293" alt ="screenshot: City & Shape Filter">
+<img src="https://github.com/miwermi/ufos/blob/main/static/images/city+shapefilter.png" align="right" width="400" height="236" alt ="screenshot: City & Shape Filter" style="margin-bottom: 10px;">
 
 At it's initial creation, the page only allowed for one search category, Date, which was triggered after date entry with a button event using javascript's d3.select.property: 
 
@@ -41,10 +41,10 @@ At it's initial creation, the page only allowed for one search category, Date, w
   
 Further development was done to add addtional search options for City, State, Country and Shape. Instead of creating a handleClick/filter button for each category,  and so multiple filters could be selected to narrow search results, the search trigger was moved to a "change" event on each input box, activated whenever a user hits enter.  
 
-  // Def variable and function to store all filter values as an object:
-  var srchFilters = {};
+    // Def variable and function to store all filter values as an object:
+    var srchFilters = {};
 
-  function updateFilters() {
+    function updateFilters() {
 
       let srchInput = d3.select(this);
       let srchValue = srchInput.property("value");
@@ -79,8 +79,11 @@ Further development was done to add addtional search options for City, State, Co
 This works well enough, and is somewhat intuitive, but the dataset is sparse and there are many search posibilities that will return nothing.  
 
 Figure 1: Results of a Date Filter
+
 Figure 2: Results of a State Filter
+
 Figure 3: Results of a Shape Filter
+
 Figure 4: Results of a City & Shape Filter
 
 
