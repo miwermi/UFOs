@@ -5,6 +5,7 @@
 
 <!--![alt](resources/___.png)-->
 <img src="https://github.com/miwermi/ufos/blob/main/static/images/banner.png" alt ="graphic: UFOs">
+(Above: Banner graphic from the webpage)
 
 ## Project Overview
 
@@ -22,7 +23,60 @@ Using Javascript, HTML and CSS, and a dataset provided by the client, I've creat
 
 <img src="https://github.com/miwermi/ufos/blob/main/static/images/city+shapefilter.png" align="right" width="500" height="293" alt ="screenshot: City & Shape Filter">
 
-At it's initial creation, the page only allowed for one search category, Date, which was triggered after date entry with a button event.  Further development added addtional search optiosn for City, State, Country and Shape, and the search trigger was moved to a "change" event on each input box when the user hits enter.  This works well enough, and is somewhat intuitive, but the dataset is sparse and there are many search posibilities that will return nothing.  
+At it's initial creation, the page only allowed for one search category, Date, which was triggered after date entry with a button event using javascript's d3.select.property: 
+
+    function handleClick() {
+      // Def variables:
+      let date = d3.select("#datetime").property("value");
+      let filteredData = tableData;
+
+       // If a date is entered...
+      if (date) {
+        filteredData = filteredData.filter(row => row.datetime === date);
+      }
+
+       // Rebuild the table using the filteredData
+      buildTable(filteredData);
+    }
+  
+Further development was done to add addtional search options for City, State, Country and Shape. Instead of creating a handleClick/filter button for each category,  and so multiple filters could be selected to narrow search results, the search trigger was moved to a "change" event on each input box, activated whenever a user hits enter.  
+
+  // Def variable and function to store all filter values as an object:
+  var srchFilters = {};
+
+  function updateFilters() {
+
+      let srchInput = d3.select(this);
+      let srchValue = srchInput.property("value");
+      let filterID = srchInput.attr("id");
+
+      // Add any changed filter to to the filters list (or clear values):
+      if (srchValue) {
+          srchFilters[filterID] = srchValue;
+      }
+      else {
+          delete srchFilters[filterID];
+      }
+
+      // Call next fitler function
+      filterTable();
+
+    }
+  
+
+    function filterTable() {
+      let filteredData = tableData;
+
+      // Loop through all of the filters and store filter data
+      Object.entries(srchFilters).forEach(([key, value]) => {
+          filteredData = filteredData.filter(row => row[key] === value);
+      });  
+
+      // Rebuild the table using the filteredData
+      buildTable(filteredData);
+    }
+
+This works well enough, and is somewhat intuitive, but the dataset is sparse and there are many search posibilities that will return nothing.  
 
 Figure 1: Results of a Date Filter
 Figure 2: Results of a State Filter
