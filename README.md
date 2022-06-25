@@ -36,15 +36,14 @@ At it's initial creation, the page only allowed for one search category, Date, w
 <img src="https://github.com/miwermi/ufos/blob/main/static/images/datefilter.png" align="right" width="420" height="248" alt ="screenshot: Date Filter">
 
 <img src="https://github.com/miwermi/ufos/blob/main/static/images/statefilter.png" align="right" width="420" height="248" alt ="screenshot: State Filter">
-
+<br clear="all" />
 Figures 1 & 2: Results of a Date Filter,  Results of a State Filter
 
 <img src="https://github.com/miwermi/ufos/blob/main/static/images/shapefilter.png" align="right" width="420" height="248" alt ="screenshot: Shape Filter">
 
 <img src="https://github.com/miwermi/ufos/blob/main/static/images/city+shapefilter.png" align="right" width="420" height="248" alt ="screenshot: City & Shape">
-Figures 3 & 4: Results of a Shape Filter, Results of a City & Shape Filter
-
 <br clear="all" />
+Figures 3 & 4: Results of a Shape Filter, Results of a City & Shape Filter
 
 Further development was done to add addtional search options for City, State, Country and Shape. Instead of creating a handleClick/filter button for each category,  and so multiple filters could be selected to narrow search results, the search trigger was moved to a "change" event on each input box, activated whenever a user hits enter.  
 
