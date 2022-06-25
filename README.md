@@ -14,16 +14,20 @@ Using Javascript, HTML and CSS, and a dataset provided by the client, I've creat
 
 
 ## Results
-<img src="https://github.com/miwermi/ufos/blob/main/static/images/datefilter.png" align="right" width="500" height="293" alt ="screenshot: datefilter">
+<img src="https://github.com/miwermi/ufos/blob/main/static/images/datefilter.png" align="right" width="500" height="293" alt ="screenshot: Date Filter">
 
-<img src="https://github.com/miwermi/ufos/blob/main/static/images/statefilter.png" align="right" width="500" height="293" alt ="screenshot: statefilter">
+<img src="https://github.com/miwermi/ufos/blob/main/static/images/statefilter.png" align="right" width="500" height="293" alt ="screenshot: State Filter">
 
-<img src="https://github.com/miwermi/ufos/blob/main/static/images/shapefilter.png" align="right" width="500" height="293" alt ="screenshot: shapefilter">
+<img src="https://github.com/miwermi/ufos/blob/main/static/images/shapefilter.png" align="right" width="500" height="293" alt ="screenshot: Shape Filter">
 
-<img src="https://github.com/miwermi/ufos/blob/main/static/images/city+shapefilter.png" align="right" width="500" height="293" alt ="screenshot: city+shapefilter">
+<img src="https://github.com/miwermi/ufos/blob/main/static/images/city+shapefilter.png" align="right" width="500" height="293" alt ="screenshot: City & Shape Filter">
 
-At it's initial creation, the page only allowed for one search category: date.  Further development added addtional search optiosn for City, State, and Shape.
+At it's initial creation, the page only allowed for one search category, Date, which was triggered after date entry with a button event.  Further development added addtional search optiosn for City, State, Country and Shape, and the search trigger was moved to a "change" event on each input box when the user hits enter.  This works well enough, and is somewhat intuitive, but the dataset is sparse and there are many search posibilities that will return nothing.  
 
+Figure 1: Results of a Date Filter
+Figure 2: Results of a State Filter
+Figure 3: Results of a Shape Filter
+Figure 4: Results of a City & Shape Filter
 
 
 ## Summary
