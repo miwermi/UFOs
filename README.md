@@ -75,13 +75,13 @@ The refactored code with addtional search capability:
 ### Search Results:
 
 <img src="https://github.com/miwermi/ufos/blob/main/static/images/datefilter.png" align="left" width="400" height="236" alt ="screenshot: Date Filter">  <img src="https://github.com/miwermi/ufos/blob/main/static/images/statefilter.png" align="right" width="400" height="236" alt ="screenshot: State Filter">
-
+<br clear="all" />
 Figures 1 & 2: Results of a Date Filter,  Results of a State Filter
 
 <br clear="all" />
     
 <img src="https://github.com/miwermi/ufos/blob/main/static/images/shapefilter.png" align="left" width="400" height="236" alt ="screenshot: Shape Filter"><img src="https://github.com/miwermi/ufos/blob/main/static/images/city+shapefilter.png" align="right" width="400" height="236" alt ="screenshot: City & Shape">
-
+<br clear="all" />
 Figures 3 & 4: Results of a Shape Filter, Results of a City & Shape Filter
 
 <br clear="all" />   
