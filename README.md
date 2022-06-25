@@ -1,8 +1,13 @@
-(in process)
-# UFOs
 
-Dana is a data journalist writing a story about her hometown, McMinnville, Oregon.  McMinnville is famous for UFO sightings and has an annual UFO enthusiast event celebrating the first sighting by Farmer Trent in 1950 and all sightings since.
+                                                                                           Michelle Werner (6/19/2022)
+# UFO Data Search
+---
 
-Dana is planning on using JavaScript (along with HTML and CSS) for this project because she's heard it can make websites more functional and dynamic, and she envisions a really cool, interactive dashboard -- and plans to publish her data and story online.
+<!--![alt](resources/___.png)-->
+<img src="https://github.com/miwermi/ufos/blob/main/static/images/banner.png" align="right" width="500" height="293" alt ="graphic: UFOs">
 
-While JavaScript is clearly capable of the vision she imagine, instead of building an entire dashboard right away, first Dana plans to create a filterable table to display the data. New to JavaScript, she wants to get her head around the syntax of the language.  
+## Project Overview
+
+Dana is a data journalist writing a story about her hometown, McMinnville, Oregon and UFO sightings.  The town has an annual UFO enthusiast event celebrating the first sighting there in 1950 and all sightings since.  Dana would like to make a web page that allows users to search even more UFO sighting data.
+
+Using Javascript, HTML and CSS, I've created a webpage that allows several different search parameters through a dataset.
