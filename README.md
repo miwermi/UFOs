@@ -1,5 +1,5 @@
 
-                                                                                           Michelle Werner (6/19/2022)
+<!--                                                                                           Michelle Werner (6/19/2022)-->
 # UFO Data Search
 ---
 
@@ -93,5 +93,5 @@ The example screenshots above illustrate the results when a search value that DO
 
 ## Summary
 
-The main drawback of the page in its current format is that it is not clear what values users may enter that will actually return results. Searching will likely be frustrating to a user who isn't already familiar with the dataset. This could be resolved by creating select options from the data and adding drop down menus to the search boxes for each category based on actual values from values that exist in each field in the dataset.  Example: The shapes mentioned above: triangle, disk, light, etc...  This could easily be done with an initial select distinct query to populate the select options.
+The main drawback of the page in its current format is that it is not clear what values users may enter that will actually return results - or that all entries are case sensitive and must be lowercase. Searching will likely be frustrating to a user who isn't already familiar with the dataset. This could be resolved by creating select options from the data and adding drop down menus to the search boxes for each category based on actual values from values that exist in each field in the dataset.  Example: The shapes mentioned above: triangle, disk, light, etc...  This could easily be done with an initial select distinct query to populate the select options.
 Also, the data could be more comprehensive, perhaps using an API for some significant source would provide not only MORE data but also the possibility of regular updates. These features would make the webpage capability much more robust and the user experience more satistfying.
